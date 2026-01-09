@@ -6,6 +6,7 @@ box-sizing: border-box;
 body{
 font-family: "Inter", sans-serif;
 }
+/* <!-- Navbar Section style starts--> */
 
 .btn{
 background-color: #469165;
@@ -20,10 +21,9 @@ cursor: pointer;
 background-color: black;
 color: white;
 }
-/* header starts */
+
 nav{width: 1341px;
 max-width: 1600px;
-
 margin:0 auto;
 
 
@@ -54,19 +54,31 @@ display: table;
 clear: both;
 content: '';
 }
-/* header end */
-/* main starts */
+
+/* <!-- Navbar Section style end--> */
+
+/* Banner Section style starts */
 .main{
 background-image: url(assets/hero-bg.png);
 
 }
 .btn1{
+margin-top: 8px;
 padding: 8px 12px 8px 34px;
 background-color: white;
 border-radius:1000px ;
 font-size: 16px;
 color: #469165;
 cursor: pointer;
+border: none;
+}
+.radial-gradient{
+padding: 14.5px 17px;
+border-radius: 50px;
+float: left;
+height: 20px;
+width: 20px;
+background-image: radial-gradient(rgb(3, 152, 5) 40%,rgb(92, 177, 92) 40%,rgb(140, 170, 146) 20%);
 }
 
 section{
@@ -135,9 +147,9 @@ height: 20px;
 width: 20px;
 }
 
-/* main section end */
+/* Banner Section style end */
 
-/* article starts */
+/* Notes Section style starts */
 article{
 text-align: center;
 padding: 44px 0;
@@ -156,18 +168,21 @@ color: #627382;
 
 
 
-
 .card-container{
 display: flex;
 justify-content: center;
 align-items: center;
 gap: 16px;
 flex-wrap: wrap;
+width: 1341px;
+margin: 0 auto;
 
 }
 .card{
 width: 322px;
-
+border: 1px solid gray;
+height: 300px;
+border-radius: 8px;
 }
 .card:hover{
 box-shadow: 4px 0px 8px 0px  gray;
@@ -195,14 +210,18 @@ font-size:16px ;
 color:#627382 ;
 margin-bottom: 30px;
 }
+/* Notes Section style end */
 
-
+/* Second Brain Section style starts */
 aside{
 padding:120px 0;
 display: flex;
-justify-content: center;
+justify-content: start;
 align-items: center;
 gap: 60px;
+width: 1341px;
+margin: 0 auto;
+
 }
 .div1 img{
 height: 600px;
@@ -228,14 +247,18 @@ line-height: 20px;
 margin-top: 16px;
 }
 
+/* Second Brain Section style end */
 
 
-
+/* Early Access Section style starts */
 .EarlyAccessSection{
 text-align: center;
 background-color:#f7f6f2 ;
 padding: 80px 0;
 margin-bottom: 120px;
+width: 1341px;
+margin: 0 auto;
+
 }
 .EarlyAccessSection h1{
 font-size: 40px;
@@ -264,9 +287,9 @@ background-color: black;
 color: wheat;
 }
 
- 
+ /* Early Access Section style end */
 
- 
+ /* Footer Section style starts */
 footer{
 background-color: #001931;
 }
@@ -290,16 +313,24 @@ margin: 5px;
 padding: 5px;
 border-radius: 45%;
 cursor: pointer;
+border: none;
+height: 20px;
+width: 20px;
+}
+.btn-footer:hover{
+background-color: gray;
 }
 .para{
 color: white;
 text-align: center;
+padding-bottom: 30px;
 }
 .hr{
-color: 1px	Middle
-rgba(229, 231, 235, 1);
+
+color:#E5E7EB;
 width: 1360px;
 margin: 0 auto;
 margin-top: 79.5px;
 margin-bottom: 30.5px;
 }
+ /* Footer Section style end */
