@@ -16,12 +16,12 @@ font-style: 700;
 background-color: black;
 color: white;
 }
-
+/* header starts */
 nav{width: 1341px;
 max-width: 1600px;
-/* border: 1px solid red */
+
 margin:0 auto;
-/* background-color: aquamarine; */
+
 
 display: flex;
 justify-content: space-around;
@@ -45,3 +45,86 @@ font-size: 16px;
 font-weight: 500;
 color: black;
 }
+.nav::after{
+display: table;
+clear: both;
+content: '';
+}
+/* header end */
+/* main starts */
+.main{
+background-image: url(assets/hero-bg.png);
+
+}
+.btn1{
+padding: 8px 12px 8px 34px;
+background-color: white;
+border-radius:1000px ;
+font-size: 16px;
+color: #469165;
+
+}
+
+section{
+text-align: center;
+padding: 115.5px 120px 179.5px 120px;
+
+}
+section h1{
+font-size:72px;
+color: white;
+font-style: bold;
+font-weight: 700;
+line-height: 85px;
+text-transform: capitalize;
+}
+.h1{
+font-size: 72px;
+color: #469165;
+font-style: bold;
+font-weight: 700;
+line-height: 84px;
+text-transform: capitalize;
+}
+section .p{
+color: white;
+font-size: 18px;
+line-height: 24px;
+margin-top: 16px;
+margin-bottom: 32px;
+}
+
+section .btn2{
+padding: 16.5px 40px 16.5px 10px;
+background-color: #469165;
+color: white;
+font-size: 16px;
+border: none;
+text-align: center;
+margin-right: 16px;
+border-radius: 4px;
+}
+section .btn2 img{
+height: 20px;
+width: 20px;
+}
+section .btn3{
+background-color: transparent;
+color: white;
+border: 1px solid white;
+padding: 16px 6px 16px 46px;
+border-radius: 4px;
+font-size: 16px;
+}
+section .btn3 img{
+height: 20px;
+width: 20px;
+}
+
+
+
+
+
+
+
+
