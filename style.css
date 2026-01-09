@@ -121,10 +121,96 @@ height: 20px;
 width: 20px;
 }
 
+/* main section end */
+
+/* article starts */
+article{
+text-align: center;
+padding: 44px 0;
+}
+article h1{
+font-size: 48px;
+font-weight: bold;
+line-height: 58px;
+text-transform: capitalize;
+}
+article p{
+font-size: 16px;
+line-height: 20px;
+color: #627382;
+}
 
 
 
 
+.card-container{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+flex-wrap: wrap;
+
+}
+.card{
+width: 322px;
+
+}
+.card:hover{
+box-shadow: 4px 0px 8px 0px  gray;
+}
+.card-body{
+text-align: center;
+}
+.card-body img{
+border-radius: 50%;
+margin-top: 69.5px;
+background-color: #f95555;
+color: #ffffff;
+
+height: 35px;
+width: 35px;
+padding: 5px;
+}
+.card-title h3{
+font-size: 24px;
+padding: 16px 0;
+color: #001931;
+}
+.card-desc p{
+font-size:16px ;
+color:#627382 ;
+margin-bottom: 30px;
+}
 
 
+aside{
+padding-top:120px ;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 60px;
+}
+.div1 img{
+height: 600px;
+width: 600px;
+}
+
+.div2 h5{
+text-transform: uppercase;
+font-size: 16px;
+color:#30b868 ;
+}
+.div2 h1{
+font-size: 48px;
+font-weight: bold;
+text-transform: capitalize;
+color: #001931;
+margin-top: 36px;
+}
+.div2 p{
+font-size: 16px;
+color: #627382;
+line-height: 20px;
+margin-top: 16px;
+}
 
